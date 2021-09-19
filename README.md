@@ -1,4 +1,4 @@
-# Weather Dashboar
+# Weather Dashboard
 This website allows the user to learn the weather by inputting a city
 
 ## Usage
