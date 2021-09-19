@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="text/javascript" href="./assets/script.js" />
+</head>
+
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+  <main>
+    <form id= "user-input">
+      <label for="city">Search for a City:</label>
+      <input type="text" name="city" id="city" name="city" />
+      <input type="submit" value="Search" />
+    </form>
+    <div>
+      <aside id="chosen-city-data">
+        <h2 id="city-name"></h2>
+        <p>Temp:<span id="temperature"></span></p>
+        <p>Wind:<span id="wind-speed"></span></p>
+        <p>Humidity:<span id="humid"></span></p>
+        <p>UV index:<span id="uv-index"></span></p>
+      </aside>
+      <aside id="five-day-forecast">
+        <h2>5 Day Forecast</h2>
+        <div id="day-one"></div>
+        <div id="day-two"></div>
+        <div id="day-three"></div>
+        <div id="day-four"></div>
+        <div id="day-five"></div>
+      </aside>
+    </div>
+  </main>
+
+</body>
+
+</html>
